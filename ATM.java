@@ -38,7 +38,7 @@ public class ATM {
     }
 
     private void withdraw() {
-        System.out.print("Enter amount to withdraw: ");
+        System.out.print("Enter amount that you want to withdraw: ");
         double amount = scanner.nextDouble();
         if (account.withdraw(amount)) {
             System.out.println("Withdrawal successful. New balance: " + account.getBalance());
